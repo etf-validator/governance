@@ -1,0 +1,165 @@
+[[technical-committee-tor]]
+= Technical Committee Terms of Reference
+
+Version 1.0.0, 30/5/2018
+
+[[objectives]]
+== *Objectives*
+
+The main attributions of the Technical Committee (TC) are oriented to
+guarantee the sustainability of the product from the technical point of
+view, considering design, implementation and performance, in order to
+help developers accomplish the roadmap of the product.
+
+These objectives range from the establishment of development guidelines,
+to the validation of proposals to incorporate the core source code into
+the master branch, as well as to the analysis and design of structural
+change actions in the source code of the application. Thus, the
+following objectives are set out in more concrete terms:
+
+* Governance of the Source Code Repository
+* Answering to questions and issues
+* Guiding Technical Development
+* QC of Developments
+* Product Technical Design
+* Generate Releases
+
+[[governance-of-the-source-code-repository]]
+== Governance of the Source Code Repository
+
+The SG is responsible for the ownership, management and administration
+of the physical infrastructure that hosts the ETF source code. These
+tasks are delegated to the TC:
+
+* The acceptance of pull requests to the ETF source code.
+* Administration of the source code repository, including user
+management
+* Management of templates and the mailing list
+
+[[questions-and-issues]]
+== Questions and issues
+
+The TC will help with user and developer questions and issues on a best
+effort basis. The TC is responsible for maintaining issue templates
+in the Source Code Repository.
+
+[[guiding-technical-development]]
+== Guiding Technical Development
+
+The TC will be in charge of providing the necessary directives and
+instructions for the implementation of the developments by the Community
+of ETF collaborators. For this purpose, the TC will provide the
+Community with different elements for the development:.
+
+* A getting started guide how contributions can be made
+* Guidelines, which provide good practices like conventions, idioms and
+patterns
+* Quality Criteria that are checked if a Pull Request has been created
+
+[[qc-of-developments]]
+== QC of Developments
+
+Quality Control of the code must be ensured to guarantee the
+sustainability of ETF. Thus, the TC will produce a set of QC checkpoints
+to be executed on the source code associated to a pull request, such as:
+
+* Contribution agreement on file.
+* Presence of tests.
+* Presence of documentation
+** for users, if changes introduce new features
+** design decisions, if the software architecture is changed
+* Presence of a proposal (only for new features).
+* Copyright headers are present
+* No commented out code sections.
+* Javadocs and comments.
+* Code formatting.
+* English language is used in code and comments.
+* Enhancements that provide special features to a small group of users
+and are difficult to maintain may be rejected (TC voting and informing
+SG is required). In this case, the TC could try to describe a solution,
+how the enhancement can be maintained by the developer/organisation as
+an extension module outside of the ETF repositories.
+* Bugfix pull requests are available for all release versions that are
+under maintenance.
+
+Depending on the specific Quality Controls to be executed, this will be
+performed on an automatic (Sonarqube or similar tools) or manual control
+by the TC.
+
+[[product-technical-design]]
+== Product Technical Design
+
+The TC shall take decisions concerning the technical design and
+architecture of the product.
+
+These decisions cover aspects such as module orientation, communication
+interfaces, architecture, package refactoring, etc.
+
+Any breaking changes (i.e. major versions) or design decisions that can
+have major effects on others in the community (e.g. a proposal to
+improve usability even if this would mean performance losses) require an
+approval by the SG.
+
+For minor design decisions where only feedback by the SG might be
+desired, the TC may invite interested SG members to a discussion or
+voting (mail, gitter, web meeting). The primary or secondary SG
+representative should react within 3 days. Not submitting a vote is
+considered as silent approval.
+
+[[generate-releases]]
+== Generate Releases
+
+The TC will be responsible for compiling all the functionalities
+associated with a specific release, generating it, testing it and,
+finally, publishing it in the different repositories so that it can be
+used by the Community.
+
+To this end, the use of a continuous integration environment is
+recommended to allow the TC to carry out these and other tasks as
+efficiently as possible.
+
+[[tc-membership]]
+== TC Membership
+
+The process of obtaining TC membership is based on proven technical
+capacity.
+
+This capacity will be demonstrated over time by the implementation of
+several pull-requests for their incorporation into ETF.
+
+The TC will analyze these pull-requests prior to their incorporation
+into the source code. If these requests are deep enough to demonstrate
+knowledge and mastery of ETF, this person may be incorporated into the
+TC.
+
+The SG will assess and accept/reject new TC members proposal.
+
+A TC member must be active. If no activity can be determined for 4
+months, the other TC members can request the SG to remove the inactive
+member from the TC.
+
+Inaugural members are:
+
+* …
+
+[[assets-to-be-maintained]]
+== Assets to be maintained
+
+The assets that the committee has to produce and maintain in order to
+establish the main lines of the ETF development for the Community are
+the following:
+
+* Mailing list
+* The Source Code Repository issue template
+* The Source Code Repository contribution file containing
+* A reference to the CLA (maintained by the SG)
+* A reference to the Code of conduct (maintained by the SG)
+* Development Guidelines
+* Quality Control Criteria
+* Releases
+* Template for submission of proposals
+
+
+// GDPR: the domain etf-validator.net is managed by interactive instruments
+[.small]
+link:https://www.interactive-instruments.de/en/about/impressum/[Legal Notice] | link:https://www.interactive-instruments.de/en/about/datenschutzerklarung/[Privacy Notice]

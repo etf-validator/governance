@@ -1,0 +1,127 @@
+= ETF Steering Group (ETF SG) - 1st meeting
+
+== Logistics
+
+Location: Webex
+Date/Time: 25/5/2018, 10:00-11:00
+
+== Attendance
+
+SG members:
+
+* JRC: Michael Lutz (main), Roberto Sgnaolin (alternate)
+* ii: Clemens Portele (main), Jon Herrmann (alternate)
+
+Observers: Sven Böhme (ii), Carlos Palma, Manuel Morillo (Guadatel)
+
+It was agreed that SG members can invite observers.
+
+== SG convenor
+
+Michael Lutz will be the Convenor of the SG.
+
+== Practical arrangements
+
+=== Product Roadmap
+
+Existing issues and improvement ideas regarding the INSPIRE validator are documented in GitHub issues. Priorities are set by the MIG-T sub-group.
+
+interactive instruments documents issues and ideas for new capabilities in GitHub issues, too.
+
+We will continue to use GitHub issues for tracking known problems and ideas for software improvements and use GitHub milestones to manage the milestones of the product roadmap.
+
+The SG will discuss issues that are Improvement Proposals. For approved proposals, the SG will assign the GitHub issue to a milestone.
+
+=== Improvement Proposals Rules
+
+An issue is considered an improvement proposal once it contains the relevant information in a single issue comment.
+
+*Action:* ii (Jon) will propose a template for improvement proposals and create a tag to identify improvement proposals.
+
+*Action:* JRC/ii will tag issues they would like to discuss in the next meeting and add information according to the template.
+
+JRC (Roberto) is working on a proposal to support the cloud deployment of the INSPIRE validator.
+
+=== Project Policies and Practices
+
+=== Terms of Reference for SG and TC
+
+The SG endorses the draft Terms of Reference for the SG and the TC with the addition of the decision regarding observers at SG meetings.
+
+*Action:* ii to update the Terms of Reference documents on GitHub.
+
+Details regarding practical arrangements will be documented in a separate document (to avoid frequent changes to the Terms of References).
+
+=== Code of Conduct
+
+*Action:* JRC will make a proposal.
+
+We will discuss the proposal at the next meeting.
+
+=== Communication
+
+==== ETF main webpage
+
+Keep https://etf-validator.net as the main webpage for now as it is.
+
+Sources: https://github.com/etf-validator/etf-validator.net.
+
+The legal and privacy notices currently link to ii's notices.
+
+*Action:* JRC (Roberto) will review to check for potential GDPR issues.
+
+==== Helpdesk
+
+Helpdesk = monitoring the GitHub issue tracker(s) and responding to issues and comments.
+
+==== Mailing list
+
+*Action:* JRC will set up a mailing list for announcements. The name will be 'etf-announce'.
+
+=== Infrastructure Management
+
+==== Repository ownership & management
+
+Owners of the https://github.com/etf-validator organisation on GitHub are the SG members.
+
+All changes to repositories will use pull requests.
+
+Pull requests on resources that are managed by the SG (e.g. the Terms of Reference or these meeting notes) are reviewed by the SG members. All other pull requests are reviewed by the TC.
+
+==== Communication infrastructure management
+
+Most resources are managed on GitHub under https://github.com/etf-validator.
+
+JRC will manage the 'etf-announce' mailing list.
+
+=== Intellectual Property Management
+
+==== License Policy
+
+Nothing to discuss.
+
+==== Contributor License Agreement
+
+*Action:* ii will provide a draft for discussion at the next meeting.
+
+Potential input: https://joinup.ec.europa.eu/document/isa-contributor-agreement-v11 and http://harmonyagreements.org/.
+
+== SC meetings
+
+We will aim at roughly monthly meetings at the beginning an reduce the frequency later.
+
+Next meeting: 20/6/2018 at 10:00 CEST
+
+*Action:* SG to decide about a regular slot after the summer holiday period.
+
+Ad-hoc meetings are always possible, initiated by the TC or a SG member.
+
+== Next steps
+
+Discuss the TC at the next meeting.
+
+== AOB
+
+Roberto will publish the ARE3NA Design report for the INSPIRE validator in JoinUp.
+
+*Action:* ii to add a link to the document on JoinUp once it has been published including a note that the documents specifies the design and does not document the current ETF version.

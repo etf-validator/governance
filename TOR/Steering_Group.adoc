@@ -1,0 +1,239 @@
+[[steering-group-tor]]
+= ETF Steering Group - Terms of Reference
+
+Version 1.0.0, 30/5/2018
+
+[[objectives]]
+== *Objectives*
+
+The main purpose of the Steering Group (SG) is to manage the governance
+of the ETF Validator in order to ensure its use and sustainability by
+the Community, keeping it aligned to its needs. The main aspects to be
+governed by the SG are the following:
+
+* Product Roadmap management including the prioritization of main
+functionalities for milestones according to the Community needs
+* Project Policies and Practices, defining the main rules to ensure the
+governance of the ETF Validator
+* Communication channels to establish an adequate level of communication
+to the Community
+* Infrastructure Management. SG will be responsible of the physical
+infrastructure of the ETF Validator.
+* Intellectual Property Management, establishing the license policy for
+the development of the ETF Validator
+* Communicate with developers and ETF stakeholders about the shared
+vision of what ETF is meant to achieve
+
+[[product-roadmap]]
+== Product Roadmap
+
+The SG will manage the project roadmap, including the definition of
+milestones and prioritisation of development efforts.
+
+[[project-roadmap]]
+=== Project roadmap
+
+* The SG maintains the milestones (that should not include version
+numbers) of the project roadmap in the source code repository (including
+proposed timing/release dates of milestones) and assigns tasks or
+enhancements that are already documented as issues to these milestones.
+After all taks/enhancement have been associated to a milestone, the SG
+will request the TC to provide feedback to identify risks or if there
+may be breaking changes. The TC will be responsible to provide a version
+number for all changes, based on the Semantic Versioning Schema.
+* The TC can always merge Pull Requests that fix issues or that enhance
+the software, independently of the roadmap or the SG, as long as these
+do not break backward compatibility or may have any negative impact on
+the roadmap (like changes that affect a component being worked on in the
+roadmap).
+* The TC decides when bugfixes are released based on the severity. The
+SG must inform the TC if a bug is critical so that a bugfix can be
+released as soon as possible. The independence allows the TC to provide
+bug fixes as fast as possible without waiting for new SG agreed
+milestones.
+* The SG also decides how long existing releases should be supported and
+about questions related to backwards-compatibility of external APIs
+(e.g. the API for developing ETS, the Web API, etc.)
+
+[[prioritisation-of-major-development-efforts]]
+=== Prioritisation of major development efforts
+
+* SG members are expected to guide the major development efforts of the
+project. This may include deciding which development efforts should
+receive priority when different efforts are in conflict.
+* A major development effort which is intended to become part of ETF can
+be proposed by any interested party, SG, or non SG (see 3. Improvement
+Proposals). However, the effort must be approved by the SG before it can
+begin.
+
+[[project-policies-and-practices]]
+== Project Policies and Practices
+
+The SG is responsible for reviewing and approving project policies and
+practices
+
+* Steering Group Terms of Reference maintenance, adapting them to the
+Community needs
+* Technical Committee Terms of Reference maintenance, adapting them to
+the Community needs
+* SG membership management according to the established criteria (see
+2.SG Membership)
+* Code of Conduct
+* Review and request changes on Development Practices from the Technical
+Committee, if comments are received from stakeholders
+
+[[communication]]
+== Communication
+
+By default, all discussions and decisions of the SG are public.
+
+The Community must be supported by different communication channels to
+ensure a suited support for its needs. Therefore, the following channels
+are proposed:
+
+* ETF main webpage, where the latest information on the product must be
+reflected, mainly, regarding: Roadmap, Releases, Repositories... The
+webpage will be governed by the SG and maintained by the TC.
+* Helpdesk to provide assistance to the Community. A first level of
+assistance will be provided by the TC and, where needed, the SG will
+provide assistance.
+* Mailing list, compiling main relevant changes and news for the product
+(the list should not be used for technical discussions). The mailing
+list will be governed by the SG and maintained by the TC.
+
+[[infrastructure-management]]
+== Infrastructure Management
+
+SG is responsible for maintaining the physical infrastructure that
+supports the elements that make up the ETF development and maintenance
+environment
+
+* Repository ownership. The group will own and be responsible for the
+product, having administrator access to the repositories and managing
+user access to those repositories.
+* Communication infrastructure management: all the elements that are
+involved in the communication processes are managed by the SG: ETF
+webpage, mailing list, helpdesk.
+
+[[intellectual-property-management]]
+== Intellectual Property Management
+
+=== License Policy
+
+The SG will be coordinate the management of the product licenses and
+intellectual property management, in collaboration and agreement with
+the IPR owners.
+
+The currently used licences are available
+link:https://github.com/etf-validator/docs/Licenses/Licenses.md[here].
+
+=== Contributor License Agreement
+
+All contributors are asked to provide an agreement for working on the
+project, depending on the nature of the contributor, it will be
+classified in:
+
+* Corporate contributor, if the contributor is an organization or a
+company.
+* Individual contributor, in case the contribution comes from a person
+interested in cooperate with the project
+
+The corresponding agreements will be printed, signed, scanned and
+emailed to the SG for its incorporation to the authorization process of
+the contributor.
+
+[[sg-membership]]
+== SG Membership
+
+The SG is made up of individuals who are intended to represent the
+various communities which have a stake in the use of ETF Validator as a
+reference implementation of INSPIRE ETSs.
+
+Organizations appoint one primary and one secondary representative. The
+secondary representative votes for his organization, if the primary is
+not attending.
+
+The inaugural members are:
+
+* JRC
+* Interactive instruments
+
+SG members may invite observers to SG meetings.
+
+[[new-sg-members]]
+=== New SG Members
+
+The list of SG members is open and it is intended to be as extensive as
+possible to represent at this level as much as possible the Community
+needs. Thus, a process to incorporate new SG members must be set up.
+
+New SG member can be nominated at any time. Voting for a new SG must be
+done by current active SG members. There is no hard limit to the number
+of SG members, but the membership must be given in recognition to very
+significant contributions to the project.
+
+* Organizations, with a significant investment in ETF
+* Developers, via a proven commitment of self-funded contributions to
+ETF
+
+Membership must be reviewed and confirmed by a vote of all SG members
+for each member every year.
+
+[[new-tc-members]]
+== New TC Members
+
+The process of obtaining TC membership is based on proven technical
+capacity.
+
+The TC will propose to the SG new members to be incorporated according
+to their proven merits.
+
+The SG will assess and accept/reject new TC members proposal.
+
+[[voting-system]]
+== Voting System
+
+The members of the group shall decide by voting on the aspects to be
+approved in accordance with the established terms of reference.
+
+SG shall reach aim to reach all decisions by consensus of all members.
+If no consensus can be reached, exceptionally a simple majority vote
+shall be used.
+
+[[improvement-proposals]]
+== Improvement Proposals
+
+The following mechanism is used to propose and agree on improvement
+proposals:
+
+* Proposals can be written up and submitted by anyone in the community
+according to a defined ETF Improvement Proposals Rules (to be agreed)
+and include a note on whether (full or partial) funding is available for
+implementing the proposal or not.
+* The proposal is made available to the community, and stakeholders can
+express support or comment on the proposal.
+* The SG decides if and when to include proposals in the product
+roadmap, taking into account also the comments and level of support
+expressed by the community.
+
+[[assets-to-be-maintained]]
+== Assets to be maintained
+
+The assets that the group has to produce and maintain in order to
+establish the main lines of the ETF development for the Community are
+the following:
+
+* Project Roadmap
+* Repository infrastructure
+* Communication infrastructure
+* ETF Improvement Proposals Rules
+* Corporate contributor license agreement
+* Individual contributor license agreement
+* Steering Group Terms of Reference
+* Technical Committee Terms of Reference
+* Code of Conduct
+
+
+// GDPR: the domain etf-validator.net is managed by interactive instruments
+[.small]
+link:https://www.interactive-instruments.de/en/about/impressum/[Legal Notice] | link:https://www.interactive-instruments.de/en/about/datenschutzerklarung/[Privacy Notice]

@@ -1,0 +1,18 @@
+= ETF Steering Group (ETF SG) - 2nd meeting
+
+== Logistics
+
+Location: Webex - https://ecwacs.webex.com/ecwacs/j.php?MTID=m3c62e526c118d28a747496b4b7482a8a
+
+Date/Time: 20/06/2018, 10:00-11:00
+
+== Draft Agenda
+* Improvement proposals
+** Template & process
+** Discussion of concrete proposals (if any?)
+* Code of Conduct
+* Contributor licence agreement
+* Communication
+** GDPR
+** Mailing list
+* Technical Committee
