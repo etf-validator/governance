@@ -6,13 +6,66 @@ Location: Webex - https://ecwacs.webex.com/ecwacs/j.php?MTID=m3c62e526c118d28a74
 
 Date/Time: 20/06/2018, 10:00-11:00
 
-== Draft Agenda
-* Improvement proposals
-** Template & process
-** Discussion of concrete proposals (if any?)
-* Code of Conduct
-* Contributor licence agreement
-* Communication
-** GDPR
-** Mailing list
-* Technical Committee
+== Attendance
+
+SG members:
+
+* JRC: Michael Lutz (main), Roberto Sgnaolin (alternate)
+* ii: Clemens Portele (main), Jon Herrmann (alternate)
+
+Observers: none
+
+== Open actions from the previous meetings
+The agenda of the SG should contain a standard agenda topic on reviewing the open actions from previous meetings.
+
+To keep track of open actions, issues will be created in the governance repository for all actions from the SG meetings.
+
+== Improvement proposals
+=== Template & process
+The template should also include evidence and additional information on the issue and proposed change and should include an additional section, where additional information (e.g. expected impacts, known constraints, ...) can be provided.
+
+The template will be reviewed in a few months, and modified if deemed necessary.
+
+*Action:* ii to update the template as discussed.
+
+=== Discussion of concrete proposals
+No improvement proposals were discussed.
+
+*Action:* ii and JRC to prepare improvement proposals (using the agreed template) until the next meeting.
+
+== Code of Conduct
+The standard "Contributor Covenant Code of Conduct" will be used for the project. 
+
+The 1st sentence in the Enforcement section should read: "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project Steering Group at etf-sg@jrc.ec.europa.eu."
+
+== Contributor licence agreements (CLAs)
+*Action:* JRC to check the proposed CLAs (for individuals and entities) with the JRC/EC IPR experts, and in particular the governing law.
+
+Signed CLAs should be sent to the SG mailing list and stored outside Github.
+
+== Communication
+=== GDPR
+For all actions related to software development, we should rely on the GitHub GDPR declaration (https://help.github.com/articles/github-privacy-statement/).
+
+For any other processing of personal information (e.g. publication of names in minutes), we should declare what data are being collected and how they are processed. The CLA should include a reference to this declaration.
+
+*Action:* JRC to propose actions / documents required for GDPR compliance.
+
+=== Mailing list
+The mailing list for announcements (etf-announce@jrc.ec.europa.eu) has been requested. This list will be open.
+
+Two additional (closed) mailing lists will be requested (etf-sg/etf-tc@jrc.ec.europa.eu) for communication with and within the SG and TC.
+
+== Technical Committee
+*Action:* ii and JRC to propose additional TC members.
+
+The current pull request (https://github.com/etf-validator/etf-webapp/pull/158) by Guadatel will be used as first test case for the work of the TC.
+
+Before merging the changes into the master branch, the Guadatel contributors will need to sign the CLA.
+
+== AOB
+*Action:* ii  to move the SG/TC documents from the doc to the new governance repository.
+
+The next SG meeting will take place on 7 August 10:00-11:30.
+
+Starting from the next SG meeting, Robert Tomas will take over from Roberto as alternate SG member for JRC.
