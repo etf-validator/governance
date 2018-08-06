@@ -4,6 +4,7 @@
 - [] CLA signed
 - [] Referenced EIP or issue exists
 - [] Description exists
+- [] PR addresses only one concern
 - [] PR can be built
 - [] Code formatting checks pass
 - [] Tests pass
