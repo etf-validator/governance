@@ -1,0 +1,26 @@
+= ETF Steering Group (ETF SG) - 3rd meeting
+
+== Logistics
+
+Location: Webex - https://ecwacs.webex.com/ecwacs/j.php?MTID=m6af6741665ea7c8a837a978f61f4aec7 (pwd: nu25PTSP)
+
+Date/Time: 07/08/2018, 10:00-11:30
+
+== Attendance
+
+SG members:
+
+* JRC: ...
+* ii: ...
+
+Observers: ...
+
+== Draft Agenda
+
+* Contributor licence agreement - status (JRC) and next steps
+* Contribution file & SG check list
+* Code of conduct
+* Technical Committee - status (ii) and next steps
+* Improvement proposals - discussion and prioritisation
+* AOB
+** GDPR
