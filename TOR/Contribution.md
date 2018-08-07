@@ -3,7 +3,7 @@
 Thank you for your interest in contributing to the ETF project.
 
 Please first discuss the improvement you wish to make via
-[ETF Improvement Proposal (EIP) issue](https://github.com/etf-validator/governance/issues/new?template=etf-improvement-proposal--eip-.md)
+[ETF Improvement Proposal (EIP) ](https://github.com/etf-validator/governance/issues/new?template=etf-improvement-proposal--eip-.md)
 in our governance repository before creating a pull request.
 Pull Requests can be created for code changes that only fix bugs without an EIP,
 but need to reference an existing bug in the
@@ -25,22 +25,33 @@ in technical matters. Your Pull Request will be reviewed by the TC.
 
 ## Pull Request Process
 
+0. Make sure you have sent us your signed ETF Entity Contributor License Agreement.
+   This is only required once.
 1. Fork the repository.
 2. Create a branch in your forked repository that either references an
-   ETF Improvement Proposal (EIP) or an reported issue. The branch name must
+   ETF Improvement Proposal (EIP) or an reported bug. The branch name must
    be 'EIP-NUMBER' for an ETF Improvement Proposal, where NUMBER is the
-   issue number from governance repository or 'issue-NUMBER' where NUMBER is
-   the issue number from the ETF webapp repository.
-3. Make the code changes. Only make changes for one concern.
+   GitHub issue number from governance repository or 'issue-NUMBER' where
+   NUMBER is the GitHub issue number from the ETF webapp repository.
+3. Make the code changes. Please also check the Requirements for a Pull Request
+   section below.
 4. Implement tests. Test your changes. Run all tests with the gradle _test_ task.
-5. Make sure you have added Javadocs if you have added public interfaces.
-6. Make sure there are no commented out code sections.
-7. English language needs to be used in code and comments.
 5. Run the gradle _spottlessApply_ task for an uniform code formatting and for
    ensuring that all Copyright headers are set.
-5. Please don't increase the version number. The TC will increase the version
+5. Please do not increase the version number. The TC will increase the version
    number for you based on the impact of the change.
-6. Make sure you have sent us your signed ETF Entity Contributor License Agreement.
-   This is only required once.
 7. Push to your branch and then create a Pull Request in our repository.
-6. Describe your design decisions for new features in the Pull Request.
+   Describe your design decisions for new features in the Pull Request.
+
+## Requirements for a Pull Request
+
+1. A Pull Request (PR) can be composed by one or multiple commits. All changes
+   together address one high-level concern. If a PR provides multiple,
+   distinct features from different sections and each section addresses a
+   separate concern, without addressing one common high-level concern, it
+   will be rejected. Examples for bad PRs: a PR that provides a bugfix and
+   adds a feature, a PR that addresses multiple EIPs.
+2. Changes must be traceable in the commit history.
+2. Make sure you have added Javadocs if you have added public interfaces.
+3. Make sure there are no commented out code sections.
+4. English language needs to be used in code and comments.
