@@ -2,25 +2,145 @@
 
 == Logistics
 
-Location: Webex - https://ecwacs.webex.com/ecwacs/j.php?MTID=m6af6741665ea7c8a837a978f61f4aec7 (pwd: nu25PTSP)
+Location: Webex
 
-Date/Time: 07/08/2018, 10:00-11:30
+Date/Time: 07/08/2018, 10:00-11:45
 
 == Attendance
 
 SG members:
 
-* JRC: ...
-* ii: ...
+* JRC: Michael Lutz (main), Roberto Sgnaolin / Robert Tomas
+* ii: Clemens Portele (main), Jon Herrmann
 
-Observers: ...
+Observers: 
 
-== Draft Agenda
+* JRC: Marco Minghini
+* Guadaltel: Carlos Palma, Iñaki Diaz de Cerio
 
-* Contributor licence agreement - status (JRC) and next steps
-* Contribution file & SG check list
-* Code of conduct
-* Technical Committee - status (ii) and next steps
-* Improvement proposals - discussion and prioritisation
-* AOB
-** GDPR
+== Contributor licence agreement (CLA) - status (JRC) and next steps
+
+JRC requires a Commission Decision to sign the CLA. Roberto will initiate the process. 
+
+The JRC CLA covers also contributions by contractors due to the IPR rules in the
+Commission contracts. I.e., from an IPR perspective any contribution under these
+contracts is a JRC contribution.
+
+*Action:* JRC will resolve the open comments on the CLA and finalize it. Any European Member State
+could be the place of jurisdiction. German law will be used, because main contributors 
+so far are from Germany.
+
+Pull Request: https://github.com/etf-validator/governance/pull/3
+
+*Action:* ii/JRC to sign the final CLA.
+
+The Commission Decision will take time. How to proceed in the meantime? JRC proposed to
+use the existing Commission Decision on the INSPIRE geo-portal as the basis for contributions 
+until the specific Decision is available as it covers the distribution of INSPIRE software 
+tools under the EUPL.
+
+*Action:* ii to review the Commission Decision on the INSPIRE geo-portal and propose 
+a mechanism for accepting contributions in the short term.
+
+== Contribution file & Pull request check list
+
+The proposal was discussed and several changes were agreed:
+
+* Clearly distinguish between bug fixes and improvements. Both are managed as "issues" in 
+GitHub, but in different repositories.
+* Be explicit about the tests that a contributor has to implement (unit tests) and run 
+(unit, integration and system tests run by the Continuous Integration). 
+ 
+*Action:* ii to update the two documents and merge the pull request.
+
+Pull Request: https://github.com/etf-validator/governance/pull/15
+
+Based on the lessons we will learn during the upcoming months we will amend the documents.
+
+== Code of conduct
+
+*Action:* JRC to update the document as discussed in the 2nd meeting and then merge the 
+pull request.
+
+Pull Request: https://github.com/etf-validator/governance/pull/12
+
+== Technical Committee - status (ii) and next steps
+
+ii propose Johannes Echterhoff and Clemens Portele as TC members in addition to 
+Jon Herrmann due to their previous contributions to the ETF repositories.
+
+*Action:* ii to document the proposal in https://github.com/etf-validator/governance/issues/9.
+
+The two existing proposals were discussed:
+
+* Jon has reviewed the changes for the "rerun button" 
+(https://github.com/etf-validator/etf-webapp/issues/62). The current change would not 
+address the (not fully documented) intention of the issue. He has created an EIP 
+for the change. 
+* A second change is simply a change in colours. This could be merged once we have
+clarified the process until we have the signed CLAs (see above).
+
+== Improvement proposals - discussion and prioritisation
+
+=== Add a rerun button
+
+Link: https://github.com/etf-validator/governance/issues/18
+
+See above. *Action:* JRC to review the EIP and update as necessary.
+
+=== ETF Performance review
+
+Link: https://github.com/etf-validator/governance/issues/14
+
+* Regarding schema documents, this is a known limitation in the INSPIRE Validator due 
+to the schema parser used by BaseX. See https://github.com/inspire-eu-validation/ets-repository/issues/22 
+for the INSPIRE Validator issue and https://github.com/etf-validator/etf-webapp/issues/85
+for the existing ETF issue.
+* Parallel execution on the ETS level is an option, but still needs to consider the
+system resources, for example to avoid unnecessary swapping of memory, which may result
+in lower performance for resource intensive tests. For the typical data/metadata ETS 
+it should also be possible to parallelise the execution of test assertions as they are
+often atomic.
+* Caching/loading of Test Suites in memory could be a configuration option.
+
+*Action:* TC to review options and report back to SG.
+
+=== Support to cloud deployment
+
+Link: https://github.com/etf-validator/governance/issues/13
+
+*Action:* TC to review options for cloud-native storage options for test objects, reports, 
+attachments, etc. and report back to SG.
+
+*Action:* Roberto to provide a presentation with additional information.
+
+=== Simplified UI for starting tests
+
+Link: https://github.com/etf-validator/governance/issues/17
+
+* All UIs/web apps are expected to use the API. I.e., multiple UIs could be supported by
+ETF and an administrator could select the UIs to use in a deployment. If multiple UIs
+are supported, there could be links to switch the UI as needed. 
+* Test Object Type detection is already implemented (see 
+https://github.com/etf-validator/etf-webapp/issues/83), but is currently mainly used
+to validate that a submitted Test Object fits the selected ETSs, not to select ETSs for
+a Test Object. However, most of the required capability should exist.
+* If the "Simplified UI" for the INSPIRE Validator would be INSPIRE-specific, it should
+not be part of ETF. If it is generic enough it should be part of ETF and would be useful
+for others, too.
+
+*Action:* JRC to review options based on the discussion.
+
+== AOB
+
+=== GDPR
+
+*Action:* Add a privacy notice (based on the planned INSPIRE privacy notice, once a 
+draft is available).
+
+=== Meetings
+
+For the next months we will use the first Tuesday of each month, i.e. 04/09/2018, 
+02/10/2018, 06/11/2018, and 04/12/2018, at 10:00.
+
+*Action:* Michael to send an invite.
