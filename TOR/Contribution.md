@@ -31,7 +31,7 @@ in technical matters. Your Pull Request will be reviewed by the TC.
 2. Create a branch in your forked repository that either references an
    ETF Improvement Proposal (EIP) or an reported bug. The branch name must
    be 'EIP-NUMBER' for an ETF Improvement Proposal, where NUMBER is the
-   GitHub issue number from governance repository or 'issue-NUMBER' where
+   GitHub issue number from governance repository or 'bug-NUMBER' where
    NUMBER is the GitHub issue number from the ETF webapp repository.
 3. Make the code changes. Please also check the Requirements for a Pull Request
    section below.
