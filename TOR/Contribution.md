@@ -10,7 +10,7 @@ before you interact with the ETF community.
 
 We distinguish between two types of changes to the ETF software
 that are handled differently:
-- For changes that provide __bug fixes__ a Pull Requests can be created
+- For changes that provide __bug fixes__ a Pull Request can be created
   that references an existing bug in the
   [ETF webapp](https://github.com/etf-validator/etf-webapp/issues)
   repository.
@@ -26,7 +26,8 @@ The ETF project is governed by a
 [Steering Group](https://github.com/etf-validator/governance/blob/master/TOR/Steering_Group.adoc)
 which is supported by a
 [Technical Committee (TC)](https://github.com/etf-validator/governance/blob/master/TOR/Technical_Committee.adoc)
-in technical matters. Your Pull Request will be reviewed by the TC.
+in technical matters. Your Pull Request will be reviewed by the Technical
+Committee.
 
 ## Pull Request Process
 
@@ -55,11 +56,12 @@ in technical matters. Your Pull Request will be reviewed by the TC.
 ## Requirements for a Pull Request
 
 1. A Pull Request can be composed by one or multiple commits. All changes
-   together address one high-level concern. If a PR provides multiple,
+   together address one high-level concern. If a Pull Request provides multiple,
    distinct features from different sections and each section addresses a
    separate concern, without addressing one common high-level concern, it
-   will be rejected. Examples for bad PRs: a PR that provides a bugfix and
-   adds a feature, a PR that addresses multiple EIPs.
+   will be rejected. Examples for bad Pull Requests: a Pull Request that
+   provides a bugfix and adds a feature, a Pull Request that addresses
+   multiple EIPs.
 2. Changes must be traceable in the commit history.
 2. Make sure you have added Javadocs if you have added public interfaces.
 3. Make sure there are no commented out code sections.
