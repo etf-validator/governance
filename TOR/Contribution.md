@@ -1,18 +1,23 @@
 # Contributing
 
-Thank you for your interest in contributing to the ETF project.
-
-Please first discuss the improvement you wish to make via
-[ETF Improvement Proposal (EIP) ](https://github.com/etf-validator/governance/issues/new?template=etf-improvement-proposal--eip-.md)
-in our governance repository before creating a pull request.
-Pull Requests can be created for code changes that only fix bugs without an EIP,
-but need to reference an existing bug in the
-[ETF webapp](https://github.com/etf-validator/etf-webapp/issues)
-repository.
+Thank you for your interest in contributing to the ETF project. We would
+appreciate it if you would read this information carefully so that we can
+propagate your changes as soon as possible.
 
 Please read and follow our
 [Code of Conduct](https://github.com/guadaltel/governance/blob/8791bedab49372132c2814b95837b4401bfaee5e/CODE_OF_CONDUCT.adoc)
 before you interact with the ETF community.
+
+We distinguish between two types of changes to the ETF software
+that are handled differently:
+- For changes that provide __bug fixes__ a Pull Requests can be created
+  that references an existing bug in the
+  [ETF webapp](https://github.com/etf-validator/etf-webapp/issues)
+  repository.
+- Changes that provide __improvements__ to the software must first be
+  discussed in an
+  [ETF Improvement Proposal (EIP) ](https://github.com/etf-validator/governance/issues/new?template=etf-improvement-proposal--eip-.md)
+  and reference an accepted EIP.
 
 Before we can merge you contribution, we must have received you signed
 [ETF Entity Contributor License Agreement](https://github.com/etf-validator/governance/blob/c776741d4b1548a7019f55e8873be5c4c1b572c1/CLA/Entity.md).
@@ -35,7 +40,11 @@ in technical matters. Your Pull Request will be reviewed by the TC.
    NUMBER is the GitHub issue number from the ETF webapp repository.
 3. Make the code changes. Please also check the Requirements for a Pull Request
    section below.
-4. Implement tests. Test your changes. Run all tests with the gradle _test_ task.
+4. Implement unit tests and test your changes.
+   Run all unit tests of the module with the gradle _test_ task.
+   Note: your unit tests, additional integration and system tests are
+   automatically run by a Continuous Integration system when you create
+   the Pull Request and must also be passed.
 5. Run the gradle _spottlessApply_ task for an uniform code formatting and for
    ensuring that all Copyright headers are set.
 5. Please do not increase the version number. The TC will increase the version
@@ -45,7 +54,7 @@ in technical matters. Your Pull Request will be reviewed by the TC.
 
 ## Requirements for a Pull Request
 
-1. A Pull Request (PR) can be composed by one or multiple commits. All changes
+1. A Pull Request can be composed by one or multiple commits. All changes
    together address one high-level concern. If a PR provides multiple,
    distinct features from different sections and each section addresses a
    separate concern, without addressing one common high-level concern, it
