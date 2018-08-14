@@ -16,7 +16,8 @@ SG members:
 Observers: 
 
 * JRC: Marco Minghini
-* Guadaltel: Carlos Palma, Iñaki Diaz de Cerio
+* Guadaltel: Carlos Palma
+* Bilbomatica: Iñaki Diaz de Cerio
 
 == Contributor licence agreement (CLA) - status (JRC) and next steps
 
