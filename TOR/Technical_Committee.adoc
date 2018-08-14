@@ -63,23 +63,23 @@ Quality Control of the code must be ensured to guarantee the
 sustainability of ETF. Thus, the TC will produce a set of QC checkpoints
 to be executed on the source code associated to a pull request, such as:
 
-* Contribution agreement on file.
-* Presence of tests.
-* Presence of documentation
-** for users, if changes introduce new features
-** design decisions, if the software architecture is changed
-* Presence of a proposal (only for new features).
-* Copyright headers are present
-* No commented out code sections.
-* Javadocs and comments.
-* Code formatting.
-* English language is used in code and comments.
-* Enhancements that provide special features to a small group of users
+. Contribution agreement on file.
+. Presence of tests.
+. Presence of documentation
+  .. for users, if changes introduce new features
+  .. design decisions, if the software architecture is changed
+. Presence of a proposal (only for new features).
+. Copyright headers are present
+. No commented out code sections.
+. Javadocs and comments.
+. Code formatting.
+. English language is used in code and comments.
+. Enhancements that provide special features to a small group of users
 and are difficult to maintain may be rejected (TC voting and informing
 SG is required). In this case, the TC could try to describe a solution,
 how the enhancement can be maintained by the developer/organisation as
 an extension module outside of the ETF repositories.
-* Bugfix pull requests are available for all release versions that are
+. Bugfix pull requests are available for all release versions that are
 under maintenance.
 
 Depending on the specific Quality Controls to be executed, this will be
