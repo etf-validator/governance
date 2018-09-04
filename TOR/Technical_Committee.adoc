@@ -140,7 +140,9 @@ member from the TC.
 
 Inaugural members are:
 
-* …
+* Jon Herrmann
+* Clemens Portele
+* Johannes Echterhoff
 
 [[assets-to-be-maintained]]
 == Assets to be maintained
