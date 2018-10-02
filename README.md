@@ -16,3 +16,7 @@ The current status of ETF Improvement Proposals (EIPs) and bug fixing can be tra
 
 * [ETF Improvement Proposals (EIPs)](https://github.com/orgs/etf-validator/projects/2)
 * [Bug fixing](https://github.com/orgs/etf-validator/projects/3)
+
+## Contributing
+
+If you are interested in contributing to the ETF project, please read carefully the [contribution guidelines](TOR/Contribution.md) and send us your signed ETF Contributor License Agreement.
