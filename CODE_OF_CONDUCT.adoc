@@ -1,5 +1,3 @@
-NOTE: This is a DRAFT version
-
 [[contributor-covenant-code-of-conduct]]
 = *Contributor Covenant Code of Conduct*
 
