@@ -83,7 +83,6 @@ https://github.com/etf-validator/governance/issues/28
  
  - clarify where the templates should be stored
  - include support for enabling/disabling template cloning
- - ensure that in a cloud deployment all containers start with the same templates
 
 === Support to cloud deployment
 https://github.com/etf-validator/governance/issues/13
