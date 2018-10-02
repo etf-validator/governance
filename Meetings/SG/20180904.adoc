@@ -1,0 +1,114 @@
+= ETF Steering Group (ETF SG) - 4th meeting
+
+== Logistics
+
+Location: Webex
+
+Date/Time: 04/09/2018, 10:00-11:45
+
+== Attendance
+
+SG members:
+
+* JRC: Michael Lutz (main), Roberto Sgnaolin
+* ii: Clemens Portele (main), Jon Herrmann
+
+Observers: 
+
+* JRC: Marco Minghini
+
+
+== Minutes of previous meeting and open actions
+=== CLA and Code of Conduct
+- The EC accepts any EU-based governing law, so German law would be ok to include in the CLA.
+- A note including the CLA will have to be submitted into Inter-Service Consultation with the
+other DGs of the Commission. However, this is mainly for information purposes, so hopefully 
+can be fast-tracked (~2 weeks)
+- ii will not block proposed PRs from JRC or their contractors while the CLA is being finalised.
+
+*Action:* JRC to check what should go into the "Us:" part at the bottom - should this be 
+the copyright holders or more generically the ETF organisation.
+
+*Action:* JRC to suggest additional Github users (from their contractors) to be whitelisted for PRs.
+
+*Action:* ii to check the links in the Contribution file and PR check list once the CLA is available.
+
+*Action:* JRC an ii to review (and merge) the pull request on the code of conduct.
+
+- Pull Request: https://github.com/etf-validator/governance/pull/12
+
+== Project board for EIPs
+See Jon's proposal at https://github.com/orgs/etf-validator/teams/sg/discussions/2/comments/2.
+
+The board is available here: https://github.com/orgs/etf-validator/projects/2
+
+- It was agreed to include the group (SG or TC) that needs to act on an EIP in the column name.
+- The later stages of the proposed EIP process should be reviewed once we have moved a few
+EIPs through the process, to see uif it can be simplified.
+
+== Project board for Bug fixing
+
+- This board (https://github.com/orgs/etf-validator/projects/3) will be used by the TC to
+keep track of bug fixing.
+- Important bugs can be added by SG members for triage by the TC
+
+*Action:* ii to revise TC board based on discussion.
+    
+== EIPs for SG discussion
+
+=== ETF Performance review
+https://github.com/etf-validator/governance/issues/14
+
+The issue will be split in several separate EIPs.
+
+*Action:* ii to propose an EIP for: maintain a local cache of the most-used schema files, 
+and maintain a time-bound cache for ad-hoc schema downloads (e.g. it is reasonable to 
+expect same set of custom schemas for the same local administration)
+
+
+*Action:* JRC to propose EIPs for:
+
+ - load (at least) the most used Test Suites in memory, and refresh them on a given time frame (if needed);
+ - refresh DB at given intervals, but not during startups;
+ - parallelise test suite execution - which should again be split in 3 parts:
+ 
+    * execute more than one ETS in one test run
+    * parallel threads in one ETS
+    * https://github.com/etf-validator/etf-webapp/issues/169
+
+=== Test Run Templates
+https://github.com/etf-validator/governance/issues/28
+ 
+*Action:* ii to updated the EIP to:
+ 
+ - clarify where the templates should be stored
+ - include support for enabling/disabling template cloning
+
+=== Support to cloud deployment
+https://github.com/etf-validator/governance/issues/13
+
+The EIP was accepted.
+
+=== Add a Rerun button
+https://github.com/etf-validator/governance/issues/18
+
+The EIP was submitted to the TC for release planning.
+
+=== Add new result status 
+https://github.com/etf-validator/governance/issues/24
+
+- The current status codes should be clearly defined, in order to better understand
+why a new code is needed. 
+- It should be avoided to keep adding new status codes, if the existing ones can be used.
+
+=== Other EIPs
+There were no major comments on:
+
+- Reusable Test Objects https://github.com/etf-validator/governance/issues/26
+- Simplified UI for starting tests https://github.com/etf-validator/governance/issues/17
+- Custom properties in test model items https://github.com/etf-validator/governance/issues/25
+
+
+== AOB
+none
+
