@@ -65,6 +65,7 @@ developers. The topic should be revisited in a month.
 * link:https://github.com/etf-validator/governance/issues/40[#40]: Move to draft. Explain in an update how is that should be technically achieved. Maybe also discuss with the original submitter / the MIG-T subgroup / the INSPIRE community what characteristics are needed.
 * link:https://github.com/etf-validator/governance/issues/29[#29]: Move to draft. What should be shown to whom? The API provides more detailed link:http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/v2/status[status information]. In general, it is better to have statements what the status means for the user than the raw figures which may be difficult to interpret.
 * link:https://github.com/etf-validator/governance/issues/30[#30]: There are two solution strategies, either in Java or in JavaScript. Probably better in Java to expose it via the API. Move to revision.
+* link:https://github.com/etf-validator/governance/issues/31[#31]: Discuss with the original submitter / the MIG-T subgroup / the INSPIRE community if this is really useful and what exactly is needed. Move to draft.
 * link:https://github.com/etf-validator/governance/issues/32[#32]: Discuss with the original submitter / the MIG-T subgroup / the INSPIRE community what characteristics are needed. Move to draft.
 * link:https://github.com/etf-validator/governance/issues/28[#28]: Approved.
 * link:https://github.com/etf-validator/governance/issues/26[#26]: Approved. This needs to take any dependency with the cloud support work into account.
