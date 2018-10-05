@@ -1,0 +1,87 @@
+= ETF Steering Group (ETF SG) - 5th meeting
+
+== Logistics
+
+Location: Webex
+
+Date/Time: 02/10/2018, 15:00-16:40
+
+== Attendance
+
+SG members:
+
+* JRC: Michael Lutz (main), Marco Minghini
+* ii: Clemens Portele (main), Jon Herrmann
+
+Observers:
+
+* Guadaltel: Enrique Soriano
+* Bilbomatica: Iñaki Diaz de Cerio
+
+== Membership changes
+
+Roberto Sgnaolin has changed his position in JRC, Marco Minghini will be the new
+JRC alternate in the Steering Group.
+
+== Minutes of previous meeting and open actions
+
+* link:https://github.com/etf-validator/governance/issues/20[#20]: The CoC has been merged.
+* link:https://github.com/etf-validator/governance/issues/21[#21]: No news on the CLA, JRC is following up internally including on
+the formal process for the decision.
+* The EIPs will be discussed <<eips,later in the meeting>>.
+
+== Update on INSPIRE validation helpdesk
+
+Users of the INSPIRE Validator find it difficult to identify where to submit issues.
+JRC has added a new link:https://github.com/inspire-eu-validation/community/wiki/INSPIRE-validation[repository]
+to get input from the community at a single location and have a forum for INSPIRE Validator discussions. JRC and Bilbomatica will look after the repository.
+
+== Membership in the GitHub ETF organisation
+
+Membership of the GitHub ETF organisation will be restricted to members
+of the ETF SG and TC. Developers working on ETF updates may be added as
+outside collaborators. Once they become, for example, TC members, they will
+be invited to become members of the organisation.
+
+== Expectations regarding technical support by the TC
+
+ii expressed concerns that the expectation for technical support by the TC
+may exceed what is feasible. There is a steep learning curve for new ETF
+developers and one of the work items at JRC is to identify how the developer
+documentation could be improved to make it easier to get started for new
+developers. The topic should be revisited in a month.
+
+*Action:* Michael to add the topic to the agenda of 6th SG meeting.
+
+[[eips]]
+== EIPs for SG discussion
+
+* link:https://github.com/etf-validator/governance/issues/48[#48]: Approved.
+* link:https://github.com/etf-validator/governance/issues/44[#44]: It would be good to have numbers how much of an impact this change would have. JRC will update EIP with additional information.
+* link:https://github.com/etf-validator/governance/issues/45[#45]: The reference to ``/home/tomcat/.etf/`` is unclear. JRC will add more details.
+* link:https://github.com/etf-validator/governance/issues/46[#46]: This would affects core functionality and, therefore, needs a more detailed design (what should be changed in the software and how) in order to be discussed. This is related to #48, too.
+* link:https://github.com/etf-validator/governance/issues/47[#47]: See #46. This builds on #46 and adds additional complexity.
+* link:https://github.com/etf-validator/governance/issues/36[#36]: Move to draft as well. As an example Geonovum has some link:https://github.com/Geonovum/etf-test-projects-inspire/tree/master/src[older WMS tests] (using ETF version 1).
+* link:https://github.com/etf-validator/governance/issues/40[#40]: Move to draft. Explain in an update how is that should be technically achieved. Maybe also discuss with the original submitter / the MIG-T subgroup / the INSPIRE community what characteristics are needed.
+* link:https://github.com/etf-validator/governance/issues/29[#29]: Move to draft. What should be shown to whom? The API provides more detailed link:http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/v2/status[status information]. In general, it is better to have statements what the status means for the user than the raw figures which may be difficult to interpret.
+* link:https://github.com/etf-validator/governance/issues/30[#30]: There are two solution strategies, either in Java or in JavaScript. Probably better in Java to expose it via the API. Move to revision.
+* link:https://github.com/etf-validator/governance/issues/31[#31]: Discuss with the original submitter / the MIG-T subgroup / the INSPIRE community if this is really useful and what exactly is needed. Move to draft.
+* link:https://github.com/etf-validator/governance/issues/32[#32]: Discuss with the original submitter / the MIG-T subgroup / the INSPIRE community what characteristics are needed. Move to draft.
+* link:https://github.com/etf-validator/governance/issues/28[#28]: Approved.
+* link:https://github.com/etf-validator/governance/issues/26[#26]: Approved. This needs to take any dependency with the cloud support work into account.
+* link:https://github.com/etf-validator/governance/issues/25[#25]: Approved.
+* link:https://github.com/etf-validator/governance/issues/17[#17]: Move to draft.
+
+*Action:* ii to add a new EIP for validation against local schema files. We can close #14 afterwards as all sub-items have been moved to specific EIPs.
+
+We also discussed the EIP workflow, it may need some fine-tuning. There was
+agreement that we need to distinguish EIPs that express a user need from
+those that include a technical proposal for the implementation. For now we
+will share the first category ("ideas") as EIP-drafts. If an SG member would
+like to have a general discussion, if there are concerns with moving an idea
+forward, they can be moved to "ready for discussion" and it will be discussed
+in a SG/TC meeting and/or in the GitHub issue.
+
+== AOB
+
+none
