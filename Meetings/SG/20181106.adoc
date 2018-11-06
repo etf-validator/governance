@@ -1,0 +1,88 @@
+= ETF Steering Group (ETF SG) - 6th meeting
+
+== Logistics
+
+Location: Webex
+
+Date/Time: 06/11/2018, 10:00-11:00
+
+== Attendance
+
+SG members:
+
+* JRC: Michael Lutz (main), Marco Minghini
+* ii: Clemens Portele (main)
+
+== Minutes of previous meeting and open actions
+
+* We will discuss the expectations regarding technical support by the TC <<#expectations-regarding-technical-support-by-the-tc,later in the meeting>>.
+* Issue link:https://github.com/etf-validator/governance/issues/14[#14] was closed and a related issue link:https://github.com/etf-validator/governance/issues/49[#49] was open.
+* The EIPs will be discussed <<#eips-for-sg-discussion,later in the meeting>>.
+
+== Contributor Licence Agreement (CLA)
+
+See link:https://github.com/etf-validator/governance/issues/21[#21]. JRC had a discussion with the IPR Unit about
+the possible licensing options for the ETF. It was confirmed that the CLA requires the presence of a legal entity;
+thus, it does not apply to our case unless we donate the project to a Foundation.
+A potential alternative is the Developer Certificate of Origin (DCO), which may be an easier mechanism to adopt but
+still there are doubts about its suitability, e.g. does any project contributor become an owner?
+what would be the copyright of the software at that point? since each commit must be signed, is it fine that contractors make
+commit on behalf of the Commission?
+
+*Action*: JRC to have an additional discussion with the IPR Unit to answer these questions and understand whether the DCO is 
+a viable option, clarify the legal position of contributors and the ETF copyright
+and whether the link:https://developercertificate.org/[DCO conditions] are fine.
+
+*Action*: JRC to add the topic to the agenda of 7th SG meeting.
+
+== Expectations regarding technical support by the TC
+
+Over the past months there has been a limited interaction with the TC. We should keep this agenda topic in the next meetings
+to see what may be useful to help ETF developers, for example documentation and automated regression tests.
+
+
+== EIP workflow
+
+Following the link:https://github.com/etf-validator/governance/issues/51[discussion] after the 5th SG meeting and the
+workflow proposed by JRC, we agreed to further simplify the board by reducing the number fo columns and using additional tags.
+
+The 6 columns are:
+
+* Proposer: draft/refine EIP
+* SG: discussion
+* TC: analysis
+* TC: in release planning
+* TC: scheduled for release
+* Implemented
+
+The tags are:
+
+* EIP-draft (for EIPs in idea/draft stage)
+* EIP (for mature EIPs, ready for SG approval)
+* EIP-approved (for EIPs approved by the SG)
+
+*Action*: ii to update the link:https://github.com/orgs/etf-validator/projects/2[board] by changing the columns, as agreed.
+
+== EIPs for SG discussion
+
+* link:https://github.com/etf-validator/governance/issues/44[#44]: JRC contractors proposed an approach to tackle the issue.
+Thus, the issue is moved to _TC: analysis_ to be analyzed.
+* link:https://github.com/etf-validator/governance/issues/45[#45]: additional information/analysis from JRC contractors is needed,
+before moving this EIP to _TC: analysis_. 
+* link:https://github.com/etf-validator/governance/issues/30[#30]: is related to issues 
+link:https://github.com/etf-validator/governance/issues/27[#27] (user interface) and 
+link:https://github.com/etf-validator/governance/issues/28[#28] (backend).
+Once the requirements are further defined, a common solution should be developed for all three issues.
+JRC will also open this issue in the link:https://github.com/inspire-eu-validation/community/[Community space] to get some feedback from the public.
+* link:https://github.com/etf-validator/governance/issues/34[#34]: it is confirmed that funding is provided by JRC. The issue is moved
+to _TC: analysis_ with the agreement to move into _TC: in release planning_, unless there are concerns by the TC.
+
+== Release of ETF RC 2.0.0
+
+We agreed that it is fine to move to version 2.0.0, which is stable since January 2018.
+
+*Action*: ii to release ETF RC 2.0.0.
+
+== AOB
+
+The 7th SG meeting is moved to December 5, from 10:30 to 12:00.
