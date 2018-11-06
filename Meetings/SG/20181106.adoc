@@ -77,11 +77,11 @@ JRC will also open this issue in the link:https://github.com/inspire-eu-validati
 * link:https://github.com/etf-validator/governance/issues/34[#34]: it is confirmed that funding is provided by JRC. The issue is moved
 to _TC: analysis_ with the agreement to move into _TC: in release planning_, unless there are concerns by the TC.
 
-== Release of ETF RC 2.0.0
+== Release of ETF 2.0.0
 
-We agreed that it is fine to move to version 2.0.0, which is stable since January 2018.
+We agreed that it is fine to move to version 2.0.0, which is stable since January 2018 (4th release candidate).
 
-*Action*: ii to release ETF RC 2.0.0.
+*Action*: ii to release ETF 2.0.0.
 
 == AOB
 
