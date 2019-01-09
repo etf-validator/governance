@@ -1,0 +1,113 @@
+= ETF Steering Group (ETF SG) - 7th meeting
+
+== Logistics
+
+Location: Webex
+
+Date/Time: 05/12/2018, 12:00-13:00
+
+== Attendance
+
+* SG members:
+** JRC: Michael Lutz (main), Marco Minghini
+** ii: Clemens Portele (main), Jon Herrmann
+* Observers:
+** Guadaltel: Enrique Soriano
+** Bilbomatica: Iñaki Diaz de Cerio
+** Geograma: Belen Saez
+
+== Minutes of previous meeting and open actions
+
+The minutes of the previous 6th SG meeting were accepted.
+
+=== ETF licensing option
+
+JRC had an additional discussion with their IPR unit on the possibility of licensing
+ETF under EUPL conditions, complemented by the Developer Certificate of Origin
+mechanism. The EC is fine with the DCO conditions. The outcomes
+have been summarized by Marco https://github.com/etf-validator/governance/issues/21#issuecomment-444087409[here].
+
+The contributors do not become owners and there is no need to mention or list
+them in the copyright. The SG would be fine with the EUPL+DCO. For now, the
+copyright will stay as it is. Later 'and the ETF contributors' could be added.
+
+JRC will discuss whether their contractors sign the DCO or if source code is
+published by JRC. ii will discuss with the german mapping agency AdV whether they
+need to make a direct contribution to ETF and how this could be handled in the
+current project.
+
+JRC will examine how the DCO signing process could look like. ii will then
+implement the changes. The SG must be able to keep track of all DCOs.
+
+**Actions**:
+
+- JRC to check the DCO signing process
+- ii will implement the changes for the DCO
+- JRC to move forward with a statement of the EC about the EUPL
+
+=== Expectations regarding technical support by the TC
+
+There is nothing to discuss regarding technical support.
+
+=== EIP workflow
+
+The SG agreed on the updated https://github.com/orgs/etf-validator/projects/2[EIP project board].
+Since externals do not have the rights to tag and move EIPs in the project board,
+the SG agreed to observe the repository and manually tag and move EIPs.
+
+JRC will review proposals that were opened in
+INSPIRE validation https://github.com/inspire-eu-validation/community/blob/master/README.md[community repository] and
+open new EIPs in the ETF governance repository.
+
+**Actions**:
+
+- ii to update the process steps described in the Readme of PR https://github.com/etf-validator/governance/pull/53[#53]
+- SG to review the PR
+
+=== Bug fixes, the workflow and permissions on project
+
+The contributors do not see the project board. The have announced two bug fixes
+in the issues https://github.com/etf-validator/etf-webapp/issues/177[#177] and https://github.com/etf-validator/etf-webapp/issues/178[#178] .
+
+SG agreed that the review procedure of bug fixes is similar to the EIP
+procedure. Bug fixing contributions must be made in separate PRs before they
+can be reviewed.
+
+**Actions**:
+
+- ii to publish project board
+- ii to add information about the bug fixing workflow to the Readme
+- JRC contractors to create separate PRs
+- ii to add bug fixing PRs to the bug fixing project board, once they have been created
+
+=== EIPs for SG discussion
+
+No new EIPs. EIP https://github.com/etf-validator/governance/issues/44[#44] waits for feedback by the JRC contractors.
+
+JRC reports increased user interest in two proposals from the INSPIRE validation community repository:
+
+* https://github.com/inspire-eu-validation/community/issues/6[Show conformance class dependencies to users]
+* https://github.com/inspire-eu-validation/community/issues/7[Improving the way test reports are searched and found]
+
+**Actions**:
+
+- JRC contractors to review the last comment of EIP https://github.com/etf-validator/governance/issues/44[#44]
+
+=== Release of ETF 2.0.0
+
+The release process is time-consuming as there are no automated tests. JRC
+will discuss with their contractors ideas how automated testing could be realised
+and create a proposal.
+
+**Actions**:
+
+- ii to release ETF 2.0.0
+- JRC to create a proposal for automated tests
+
+== AOB
+
+The 8th SG meeting is moved to January 8 at 10:30.
+
+*Actions*:
+
+- JRC to send an invite.
