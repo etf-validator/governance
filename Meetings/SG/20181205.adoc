@@ -8,8 +8,6 @@ Date/Time: 05/12/2018, 12:00-13:00
 
 == Attendance
 
-SG members:
-
 * SG members:
 ** JRC: Michael Lutz (main), Marco Minghini
 ** ii: Clemens Portele (main), Jon Herrmann
@@ -20,6 +18,8 @@ SG members:
 
 == Minutes of previous meeting and open actions
 
+The minutes of the previous 6th SG meeting were accepted.
+
 === ETF licensing option
 
 JRC had an additional discussion with their IPR unit on the possibility of licensing
@@ -29,7 +29,7 @@ have been summarized by Marco https://github.com/etf-validator/governance/issues
 
 The contributors do not become owners and there is no need to mention or list
 them in the copyright. The SG would be fine with the EUPL+DCO. For now, the
-copyright will stay as it is. Later 'and the ETF contractors' could be added.
+copyright will stay as it is. Later 'and the ETF contributors' could be added.
 
 JRC will discuss whether their contractors sign the DCO or if source code is
 published by JRC. ii will discuss with the german mapping agency AdV whether they
@@ -69,15 +69,16 @@ open new EIPs in the ETF governance repository.
 The contributors do not see the project board. The have announced two bug fixes
 in the issues https://github.com/etf-validator/etf-webapp/issues/177[#177] and https://github.com/etf-validator/etf-webapp/issues/178[#178] .
 
-SG agreed that the review procedure of bug fixes is similar to the EIP 
+SG agreed that the review procedure of bug fixes is similar to the EIP
 procedure. Bug fixing contributions must be made in separate PRs before they
 can be reviewed.
 
 **Actions**:
 
 - ii to publish project board
+- ii to add information about the bug fixing workflow to the Readme
 - JRC contractors to create separate PRs
-- ii to add bug fixing PRs to the project board, once the have been created
+- ii to add bug fixing PRs to the bug fixing project board, once they have been created
 
 === EIPs for SG discussion
 
@@ -90,7 +91,7 @@ JRC reports increased user interest in two proposals from the INSPIRE validation
 
 **Actions**:
 
-- JRC contractors to review comments
+- JRC contractors to review the last comment of EIP https://github.com/etf-validator/governance/issues/44[#44]
 
 === Release of ETF 2.0.0
 
