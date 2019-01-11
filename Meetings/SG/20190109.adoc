@@ -1,0 +1,78 @@
+= ETF Steering Group (ETF SG) - 8th meeting
+
+== Logistics
+
+Location: Webex
+
+Date/Time: 09/01/2019, 16:00-17:30
+
+== Attendance
+
+* SG members:
+** JRC: Michael Lutz (main), Marco Minghini
+** ii: Clemens Portele (main), Jon Herrmann
+* Observers:
+** Guadaltel: Enrique Soriano
+** Bilbomatica: Iñaki Diaz de Cerio
+
+
+== Minutes of previous meeting and open actions
+
+The https://github.com/etf-validator/governance/blob/31ccccb089685c40c17556207ba283234ee5f1f2/Meetings/SG/20181205.adoc[minutes of 7th SG meeting] were accepted.
+Open actions will be discussed for each agenda item in the following.
+
+
+== Expectations regarding technical support by the TC
+
+There is nothing to discuss regarding technical support.
+
+
+== ETF licensing option
+
+JRC has made some further investigation on how the DCO works in practice, see https://github.com/etf-validator/governance/issues/21#issuecomment-445753184[here].
+
+Accordingly, ii has activated the option to require signed commits for all the ETF GitHub repositories. This means that it will be no longer possible to push unsigned commits.
+
+JRC has asked the IPR Unit to go with the Commission Decision for the release of the software under the EUPL.
+
+* [ ] ii to update the https://github.com/etf-validator/governance/blob/master/TOR/Contribution.md[Contributing page] with reference to the DCO
+* [ ] ii to change the https://github.com/etf-validator/governance/pull/3[PR mentioning the CLA] accordingly
+* [ ] JRC to discuss with their contractors on how to deal with the DCO
+* [ ] JRC to provide updates on the Commission Decision to publish the code under EUPL
+
+
+== EIP and Bugfixing workflow
+
+During the last meeting, we agreed on the review procedures for bug fixes.
+
+* [ ] ii to update the https://github.com/etf-validator/governance[Readme] with information about the Bugfixing workflow
+
+
+== EIPs for SG discussion (+ other)
+
+* EIPs in "SG: discussion": there are no new EIPs
+** [ ] JRC to update about the most high-priority EIPs after 2017.4 subgroup meeting 
+* EIPs in "TC: analysis": 
+** [ ] contractors to provide feedback on https://github.com/etf-validator/governance/issues/44[#44]
+* EIPs in "TC: in release planning": priority will be given to https://github.com/etf-validator/governance/issues/25[#25], https://github.com/etf-validator/governance/issues/26[#26], https://github.com/etf-validator/governance/issues/28[#28]
+
+
+== Status of PRs for bug fixes
+
+PR https://github.com/etf-validator/etf-webapp/pull/158[#158] and https://github.com/etf-validator/etf-webapp/pull/183[#183] cannot be merged and will be closed. It is outlined that separate PRs in separate branches should be made for each separate issue.  
+
+* [ ] contractors to create new PRs for each change
+
+
+== Release of ETF 2.0.0
+
+ETF 2.0.0 was released, see https://github.com/etf-validator/etf-webapp/releases/tag/2.0.0[here]. For the next releases, it is recommended to have a plan on how to make automated tests.
+
+* [ ] contractors to draft and share a plan for automated tests (at least a ToC)
+* [ ] JRC to update the INSPIRE Validator to the new release
+
+== AOB
+
+SG meetings until July 2019 have been scheduled on the first Tuesday of each month, from 10:00 to 11:30.
+
+Due to conflicts with other meetings, the next meeting is scheduled on Friday, February 8 from 10:00 to 11:30.
