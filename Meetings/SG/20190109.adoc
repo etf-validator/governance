@@ -73,6 +73,6 @@ ETF 2.0.0 was released, see https://github.com/etf-validator/etf-webapp/releases
 
 == AOB
 
-SG meetings until July 2019 have been scheduled on the first Tuesday of each month, from 10:00 to 11:30.
+SG meetings until July 2019 have been scheduled on the first Tuesday of each month, from 10:00 to 11:30. 
 
 Due to conflicts with other meetings, the next meeting is scheduled on Friday, February 8 from 10:00 to 11:30.
