@@ -19,9 +19,6 @@ that are handled differently:
   [ETF Improvement Proposal (EIP) ](https://github.com/etf-validator/governance/issues/new?template=etf-improvement-proposal--eip-.md)
   and reference an accepted EIP.
 
-Before we can merge you contribution, we must have received you signed
-[ETF Entity Contributor License Agreement](https://github.com/etf-validator/governance/blob/c776741d4b1548a7019f55e8873be5c4c1b572c1/CLA/Entity.md).
-
 The ETF project is governed by a
 [Steering Group](https://github.com/etf-validator/governance/blob/master/TOR/Steering_Group.adoc)
 which is supported by a
@@ -29,13 +26,39 @@ which is supported by a
 in technical matters. Your Pull Request will be reviewed by the Technical
 Committee.
 
+## Developer Certificate of Origin
+
+ETF is Licensed under the [European Public License 1.2](https://opensource.org/licenses/EUPL-1.2). For all project contributions it is necessary to follow the Developer Certificate of Origin (DCO) mechanism.
+
+The DCO is legally binding statement that ensures you are the creator of the contribution, and that you allow the ETF project to use your work. The Developer Certificate of Origin can be found at http://developercertificate.org/ .
+
+The DCO is attached to every contribution made by every developer. In the commit message of the contribution, the developer must add a `Signed-off-by` statement to agree to the DCO and digitally sign it with a GPG signature.
+
+Please refer to both sources to learn how to configure and use your GIT:
+- https://git-scm.com/docs/git-commit#git-commit---signoff
+- https://help.github.com/articles/signing-commits/
+
+Most GIT clients support adding `Signed-off-by` to the commit messages but do
+not support the configuration of signing the commits with GPG. Please check if the settings for user, commit and gpg are set in your local GIT configuration. An example:
+
+```
+[user]
+  name = John Doe
+  email = deo@whatever.com
+  signingkey = 420A420FFF
+[commit]
+  gpgsign = true
+[gpg]
+  program = /usr/local/bin/gpg
+```
+
 ## Pull Request Process
 
-0. Make sure you have sent us your signed ETF Entity Contributor License Agreement.
-   This is only required once.
+0. Please read and accept the Developer Certificate of Origin. All commits
+   have to be **signed-off** and **digitally signed**. Make sure you have configured your GIT client accordingly.
 1. Fork the repository.
 2. Create a branch in your forked repository that either references an
-   ETF Improvement Proposal (EIP) or an reported bug. The branch name must
+   ETF Improvement Proposal (EIP) or an reported bug. The branch name should
    be 'EIP-NUMBER' for an ETF Improvement Proposal, where NUMBER is the
    GitHub issue number from governance repository or 'bug-NUMBER' where
    NUMBER is the GitHub issue number from the ETF webapp repository.
@@ -60,7 +83,7 @@ Committee.
    distinct features from different sections and each section addresses a
    separate concern, without addressing one common high-level concern, it
    will be rejected. Examples for bad Pull Requests: a Pull Request that
-   provides a bugfix and adds a feature, a Pull Request that addresses
+   provides a bugfix and adds a feature or a Pull Request that addresses
    multiple EIPs.
 2. Changes must be traceable in the commit history.
 2. Make sure you have added Javadocs if you have added public interfaces.
