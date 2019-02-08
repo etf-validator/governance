@@ -46,8 +46,8 @@ JRC has updated draft EIPs after the discussion with 2017.4 sub-group members.
 
 * https://github.com/etf-validator/governance/issues/30[#30]
 ** A high priority for automatically selecting and greying out the dependent conformance classes. Information about the transitive dependencies is available, but needs to be processed in the web app.
-** [ ] JRC to reduce the EIP to this aspect.
 ** The EIP is approved.
+** [ ] JRC to reduce the EIP to this aspect.
 * https://github.com/etf-validator/governance/issues/31[#31]
 ** PDF output has been requested by the subgroup, but there is mixed feedback on the level of detail. Mockups of an updated webapp have been added.
 ** "Print all" would print all details, "Print selected" would print the selected information.
@@ -61,8 +61,8 @@ JRC has updated draft EIPs after the discussion with 2017.4 sub-group members.
 * https://github.com/etf-validator/governance/issues/60[#60]
 ** Statistical diagrams are a nice addition, more intuitive.
 ** We agreed that the best way forward is to define extension points in the XSLT so that deployments can customize the HTML report with additional elements. This requires additional technical work on the Java level, too.
-** [ ] TC will analyse and outline how this could be implemented.
 ** Change to EIP.
+** [ ] TC will analyse and outline how this could be implemented.
 * https://github.com/etf-validator/governance/issues/32[#32]:
 ** The idea is supported, but it is unclear how labels would be included in the data model and the API.
 ** [ ] JRC and the contractors to analyse and update the issue with a proposal and change to EIP.
