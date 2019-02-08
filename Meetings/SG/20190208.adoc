@@ -1,0 +1,111 @@
+= ETF Steering Group (ETF SG) - 9th meeting
+
+== Logistics
+
+Location: Webex
+
+Date/Time: 08/02/2019, 10:00-11:30
+
+== Attendance
+
+* SG members:
+** JRC: Michael Lutz (main), Marco Minghini
+** ii: Clemens Portele (main), Jon Herrmann
+* Observers:
+** JRC: Lorena Hernandez
+** Guadaltel: Enrique Soriano, Carlos Palma
+** Bilbomatica: Iñaki Diaz de Cerio
+
+== Minutes of previous meeting and open actions
+
+The https://github.com/etf-validator/governance/blob/master/Meetings/SG/20190109.adoc[minutes of 8th SG meeting] were accepted.
+
+The following action items from the previous meeting have been addressed:
+
+* [x] ii to update the https://github.com/etf-validator/governance/blob/master/TOR/Contribution.md[Contributing page] with reference to the DCO
+* [x] ii to change the https://github.com/etf-validator/governance/pull/3[PR mentioning the CLA] accordingly
+* [x] ii to update the https://github.com/etf-validator/governance[Readme] with information about the Bugfixing workflow
+* [x] JRC to update about the most high-priority EIPs after 2017.4 subgroup meeting
+* [x] contractors to provide feedback on https://github.com/etf-validator/governance/issues/44[#44]
+
+The following actions remain open:
+
+* [ ] JRC to discuss with their contractors on how to deal with the DCO - will be discussed later today
+* [ ] JRC to provide updates on the Commission Decision to publish the code under EUPL - waiting for a response
+* [ ] contractors to create new PRs for each change - work is done internally, but having issue with the digital signature
+* [ ] contractors to draft and share a plan for automated tests (at least a ToC) - a first draft is available within JRC
+* [ ] JRC to update the INSPIRE Validator to the new release - scheduled, but not yet executed
+
+== Expectations regarding technical support by the TC
+
+There is nothing to discuss regarding technical support.
+
+== EIPs for SG discussion
+
+JRC has updated draft EIPs after the discussion with 2017.4 sub-group members.
+
+* https://github.com/etf-validator/governance/issues/30[#30]
+** A high priority for automatically selecting and greying out the dependent conformance classes. Information about the transitive dependencies is available, but needs to be processed in the web app.
+** [ ] JRC to reduce the EIP to this aspect.
+** The EIP is approved.
+* https://github.com/etf-validator/governance/issues/31[#31]
+** PDF output has been requested by the subgroup, but there is mixed feedback on the level of detail. Mockups of an updated webapp have been added.
+** "Print all" would print all details, "Print selected" would print the selected information.
+** There are two reasons why the "print" elements should be kept outside of the HTML:
+*** Additional active elements will decrease the responsiveness of the page.
+*** Any active elements in the HTML must also work in the downloaded HTML.
+** Instead of "print" the goal should be "save as PDF".
+** We agreed to remove the option from the HTML and also the option to select only some conformance classes.
+** Instead the "download report" option should be extended so that users can download the report in any available format (e.g. HTML, XML, JSON, PDF) and maybe also as a Zip archive with the report in all formats (this has been brought up in the AdV-Testsuite development).
+** [ ] JRC to update the draft EIP
+* https://github.com/etf-validator/governance/issues/60[#60]
+** Statistical diagrams are a nice addition, more intuitive.
+** We agreed that the best way forward is to define extension points in the XSLT so that deployments can customize the HTML report with additional elements. This requires additional technical work on the Java level, too.
+** [ ] TC will analyse and outline how this could be implemented.
+** Change to EIP.
+* https://github.com/etf-validator/governance/issues/32[#32]:
+** The idea is supported, but it is unclear how labels would be included in the data model and the API.
+** [ ] JRC and the contractors to analyse and update the issue with a proposal and change to EIP.
+* https://github.com/etf-validator/governance/issues/61[#61]
+** We agreed that we do not want to change the aggregation rules (result of test suites/test cases based on the results of their test cases/test assertions).
+** In the HTML, the PASSED_MANUAL results could be removed from the conformance classes and presented as a checklist separately in the report.
+** [ ] JRC to update the issue with more details and change to EIP.
+* https://github.com/etf-validator/governance/issues/44[#44]
+** Some performance improvements have been identified, but the unit tests fail. This needs to be clarified.
+** Using the cache should be an option, controlled by a property in the configuration.
+** [ ] Contractors to resolve the unit test issues and implement the configuration option.
+
+The schedule for the next feature release (likely 2.1.0) was discussed:
+
+* ii has milestones in August and November 2019 in the AdV-Testsuite project where the current ii-EIPs will be implemented.
+* JRC wants to have a release in May/June 2019 before the end of the current contract.
+* [ ] TC to take this into account in the release planning.
+
+== Status of PRs for bug fixes
+
+Pending, see the open issue from the previous SG meeting.
+
+== Plan for automated tests for the next releases of ETS/ETF
+
+The contractor presented a current draft that will be discussed with JRC in
+more detail. Preliminary feedback:
+
+* The plan should include the simulation of user interaction
+* We need to consider other ETSs and other ETS repositories than the INSPIRE ones
+
+The SG needs to review and discuss this in more detail.
+
+* [ ] JRC to share an updated version after a discussion with the contractors
+* [ ] ii will provide a description of low-level tests that are planned in the AdV-Testsuite project
+
+== AOB
+
+* Possible EIP to change/remove the Status page? see inspire-eu-validation/community#4
+** Currently the page is not used by users of the INSPIRE validator.
+** However, it is the only way to get back to monitoring a running test.
+** Maybe the page should be renamed to "Dashboard" or similar.
+** It could be another configuration option to deactivate the page in deployments.
+** [ ] JRC will discuss this again with the subgroup
+* An error in the Readme.md has been identified
+** [x] ii to change "EIP-idea" to "EIP-draft" in Readme.md
+* Next meeting: Tuesday, March 5 from 10:00 to 11:30 (regular slot).
