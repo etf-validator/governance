@@ -66,7 +66,6 @@ JRC has updated draft EIPs after the discussion with 2017.4 sub-group members.
 * https://github.com/etf-validator/governance/issues/32[#32]:
 ** The idea is supported, but it is unclear how labels would be included in the data model and the API.
 ** [ ] JRC and the contractors to analyse and update the issue with a proposal and change to EIP.
-** [ ] JRC to change the title of the issue to better reflect the real proposal made ("Improve filtering of test reports").
 * https://github.com/etf-validator/governance/issues/61[#61]
 ** We agreed that we do not want to change the aggregation rules (result of test suites/test cases based on the results of their test cases/test assertions).
 ** In the HTML, the PASSED_MANUAL results could be removed from the conformance classes and presented as a checklist separately in the report.
@@ -105,7 +104,6 @@ The SG needs to review and discuss this in more detail.
 ** Currently the page is not used by users of the INSPIRE validator.
 ** However, it is the only way to get back to monitoring a running test.
 ** Maybe the page should be renamed to "Dashboard" or similar.
-** Another idea is to move the indication of the test(s) currently running but not yet completed from the Status page (which at that point can be removed or deactivated) to the top of the list in the Test reports page.
 ** It could be another configuration option to deactivate the page in deployments.
 ** [ ] JRC will discuss this again with the subgroup
 * An error in the Readme.md has been identified
