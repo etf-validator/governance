@@ -74,6 +74,6 @@ The link:https://github.com/etf-validator/etf-system-tests/tree/repo_organizatio
 == AOB
 
 - The link:https://talks.2019.foss4g.org/bucharest/talk/HJKKG8/[Foss4g talk] was accepted
-- Clemens will share the status code mapping that was provided for the information annex in the ISO 19105 revision
+- Clemens will share the ETF status code mapping that was provided for the information annex in the ISO 19105 revision
 
 The next meeting was planned for the 23.07., but was postponed to the *18.07.* at *10:00*.
