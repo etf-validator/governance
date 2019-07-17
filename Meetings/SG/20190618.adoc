@@ -1,0 +1,79 @@
+= ETF Steering Group (ETF SG) - 13th meeting
+
+== Logistics
+
+Location: Webex
+
+Date/Time: 18/06/2019, 10:00-11:15
+
+== Attendance
+
+* SG members:
+** JRC: Michael Lutz (main), Marco Minghini
+** ii: Clemens Portele (main), Jon Herrmann
+* Observers:
+** JRC: Lorena Hernandez
+** Guadaltel: Enrique Soriano, Carlos Palma
+
+== Minutes of previous meeting and open actions
+
+All actions were addressed.
+
+== EIPs for SG discussion
+
+* link:https://github.com/etf-validator/governance/issues/61[EIP #61]
+** [ ] JRC to discuss the EIP with the contractors separately
+* link:https://github.com/etf-validator/governance/issues/75[EIP #75]
+** It is currently not clear whether the proposed alternative architecture will bring an improvement
+** [ ] Contractors to build a prototype and test in scenarios whether the test can be run faster with the alternative data storage architecture
+* link:https://github.com/etf-validator/governance/issues/76[EIP #76]
+** could shorten the runtime for small data tests like the Metadata tests
+** does not currently have a high priority for ii
+** it is agreed that the EIP will stay open
+* link:https://github.com/etf-validator/governance/issues/77[EIP #77]
+** [ ] ii to provide content in the next month
+* link:https://github.com/etf-validator/governance/issues/78[EIP #78]
+** the EIP has been approved and moved to release planning
+
+== Status of EIPs in release planning
+
+* link:https://github.com/etf-validator/governance/issues/30[EIP #30]
+** The functionality looks good. TC made some tests with the PR and did not find defects
+** [ ] contractors to fix issues reported by the Codacy tool
+* link:https://github.com/etf-validator/governance/issues/31[EIP #31]
+** The approach looks good
+** Contractors to open a PR once the feature is available
+* link:https://github.com/etf-validator/governance/issues/32[EIP #32]
+** SG discussed where Tags should be displayes in the test report view. 
+For the requirements it is not clear whether a user wants to find reports
+with a specific tag (which he did not necessarily start) or whether he only
+wants to retrieve his reports. It is assumed that the latter is the case, but the requirement must be clarified.
+** [ ] JRC to discuss with the subgroup and the contractors the exact requirement and how the UI could be changed.
+** [ ] Contractors to change the text in the filter input to "Filter reports by title, date, tags" if the search field should be used with tags.
+* link:https://github.com/etf-validator/governance/issues/60[EIP #60]
+** Contractors to open a PR once the feature is available
+
+== Status of PRs
+
+* link:https://github.com/etf-validator/etf-webapp/pull/189[PR #189 for BUG #162]
+** [ ] Contractors to implement nightwatch tests for this PR to check the UI
+
+* link:https://github.com/etf-validator/etf-webapp/pull/193[PR #193 for EIP #48]
+** [ ] Contractors to fix the requested changes
+
+* link:https://github.com/etf-validator/etf-webapp/pull/196[PR #196 for EIP #18]
+** [x] TC to merge PR
+
+* link:https://github.com/etf-validator/etf-webapp/pull/203[PR #203 for EIP #30]
+** see EIP status section above
+
+== Plan for automated tests for the next releases of ETS/ETF
+
+The link:https://github.com/etf-validator/etf-system-tests/tree/repo_organization[nightwatch tests] were demonstrated by the contractors and were tested by the TC and found to be a good solution for the interface tests.
+
+== AOB
+
+- The link:https://talks.2019.foss4g.org/bucharest/talk/HJKKG8/[Foss4g talk] was accepted
+- Clemens will share the ETF status code mapping that was provided for the information annex in the ISO 19105 revision
+
+The next meeting was planned for the 23.07., but was postponed to the *18.07.* at *10:00*.
